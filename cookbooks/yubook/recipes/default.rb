@@ -2,7 +2,7 @@
 # Cookbook Name:: yubook
 # Recipe:: default
 #
-# Copyright 2012, YOUR_COMPANY_NAME
+# Copyright 2012, Yumani LLC
 #
 # All rights reserved - Do Not Redistribute
 #
