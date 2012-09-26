@@ -1,0 +1,30 @@
+{
+  "providing": {
+  },
+  "version": "0.0.1",
+  "conflicting": {
+  },
+  "license": "All rights reserved",
+  "maintainer": "Yumani",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer_email": "dzmitryg@ruckusmarketing.com",
+  "dependencies": {
+  },
+  "recipes": {
+    "yubook::default": "Prints Hello Test"
+  },
+  "replacing": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "recommendations": {
+  },
+  "name": "yubook",
+  "groupings": {
+  },
+  "attributes": {
+  },
+  "description": "Installs/Configures yubook"
+}
