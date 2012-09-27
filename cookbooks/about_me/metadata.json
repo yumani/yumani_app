@@ -1,31 +1,31 @@
 {
+  "name": "about_me",
   "providing": {
   },
+  "recipes": {
+    "about_me::default": "Prints my name and several things output"
+  },
+  "maintainer_email": "dzmitryg@ruckusmarketing.com",
+  "maintainer": "Yumani LLC",
   "groupings": {
   },
   "replacing": {
   },
-  "dependencies": {
-    "rightscale": ">= 0.0.0"
+  "recommendations": {
   },
   "platforms": {
   },
-  "maintainer": "Yumani LLC",
-  "suggestions": {
-  },
-  "recommendations": {
-  },
-  "license": "All rights reserved",
-  "name": "about_me",
-  "recipes": {
-    "about_me::default": "Prints my name and several things output"
-  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "description": "Installs/Configures about_me",
   "attributes": {
   },
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "version": "0.0.1",
+  "license": "All rights reserved",
   "conflicting": {
   },
-  "maintainer_email": "dzmitryg@ruckusmarketing.com",
-  "description": "Installs/Configures about_me"
+  "version": "0.0.1",
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "suggestions": {
+  }
 }
