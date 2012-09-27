@@ -1,31 +1,44 @@
 {
-  "name": "about_me",
   "providing": {
+  },
+  "platforms": {
+  },
+  "conflicting": {
+  },
+  "recommendations": {
+  },
+  "version": "0.0.1",
+  "replacing": {
+  },
+  "suggestions": {
+  },
+  "maintainer_email": "dzmitryg@ruckusmarketing.com",
+  "maintainer": "Yumani LLC",
+  "description": "Installs/Configures about_me",
+  "name": "about_me",
+  "attributes": {
+    "about_me/favorite/hobby": {
+      "choice": [
+
+      ],
+      "required": "required",
+      "type": "string",
+      "description": "Enter your hobby",
+      "recipes": [
+        "about_me::default"
+      ],
+      "calculated": false,
+      "display_name": "hobby"
+    }
+  },
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
   },
   "recipes": {
     "about_me::default": "Prints my name and several things output"
   },
-  "maintainer_email": "dzmitryg@ruckusmarketing.com",
-  "maintainer": "Yumani LLC",
-  "groupings": {
-  },
-  "replacing": {
-  },
-  "recommendations": {
-  },
-  "platforms": {
-  },
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "description": "Installs/Configures about_me",
-  "attributes": {
-  },
   "license": "All rights reserved",
-  "conflicting": {
-  },
-  "version": "0.0.1",
-  "dependencies": {
-    "rightscale": ">= 0.0.0"
-  },
-  "suggestions": {
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "groupings": {
   }
 }

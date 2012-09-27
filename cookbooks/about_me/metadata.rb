@@ -7,3 +7,10 @@ version          "0.0.1"
 
 depends "rightscale"
 recipe "about_me::default","Prints my name and several things output"
+#Required#
+attribute "about_me/favorite/hobby",
+          :display_name => "hobby",
+          :description => "Enter your hobby",
+          :required => "required",
+          :recipes => ["about_me::default"]
+          
