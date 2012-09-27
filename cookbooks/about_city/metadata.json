@@ -1,0 +1,72 @@
+{
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "recommendations": {
+  },
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "platforms": {
+  },
+  "license": "All rights reserved",
+  "name": "about_city",
+  "maintainer_email": "dzmitryg@ruckusmarketing.com",
+  "maintainer": "Yumani LLC",
+  "version": "0.0.1",
+  "recipes": {
+    "about_city::my_city": "Info about my city"
+  },
+  "providing": {
+  },
+  "description": "Installs/Configures about_city",
+  "conflicting": {
+  },
+  "groupings": {
+  },
+  "replacing": {
+  },
+  "suggestions": {
+  },
+  "attributes": {
+    "about_city/rain": {
+      "display_name": "Rain",
+      "required": "recommended",
+      "recipes": [
+        "about_city::my_city"
+      ],
+      "description": "It's Raining?",
+      "default": "No",
+      "choice": [
+        "yes",
+        "No"
+      ],
+      "type": "string",
+      "calculated": false
+    },
+    "about_city/city_name": {
+      "display_name": "City name",
+      "required": "required",
+      "recipes": [
+        "about_city::my_city"
+      ],
+      "description": "My Current City",
+      "choice": [
+
+      ],
+      "type": "string",
+      "calculated": false
+    },
+    "about_city/temperature": {
+      "display_name": "temperature",
+      "required": "optional",
+      "recipes": [
+        "about_city::my_city"
+      ],
+      "description": "What temperature is it now?",
+      "choice": [
+
+      ],
+      "type": "string",
+      "calculated": false
+    }
+  }
+}
